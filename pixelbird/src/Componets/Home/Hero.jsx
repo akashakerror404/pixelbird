@@ -24,7 +24,7 @@ function Hero() {
       <div className="h-[171px] md:h-[200px] flex-col px-10 justify-start items-start gap-[22px] flex">
         <div className="h-[109px] md:pt-4 flex-col justify-end items-start gap-2 flex">
           <img className="w-52 h-[72px] md:w-50 md:h-[100px] relative" src={blade} />
-          <div className="hidden md:flex w-48 md:w-96 text-white text-[7px] md:text-base font-medium  leading-3">
+          <div className="hidden md:flex w-48 md:w-96 text-white  md:text-sm text-sm">
             07 June 2019
           </div>
         </div>
@@ -33,7 +33,7 @@ function Hero() {
           <div className="w-6 h-6 md:w-8 md:h-8 relative items-center">
             <img className="w-5 h-5 md:w-6 md:h-6 left-[2px] top-[2px] absolute" src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png" />
           </div>
-          <div className="text-white  text-base md:text-lg  capitalize leading-normal">
+          <div className="text-white  text-base md:text-lg  font-Noto capitalize leading-normal cursor-pointer">
             Watch Trailer
           </div>
         </div>

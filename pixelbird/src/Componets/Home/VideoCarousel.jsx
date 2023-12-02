@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import { FaStar } from 'react-icons/fa';
 import thumbnailImage from "../../assets/thub.jpg";
+import palyicon from "../../assets/palyicon.jpg";
+
 
 function VideoCarousel() {
   const videoRef = useRef(null);
@@ -45,12 +47,21 @@ function VideoCarousel() {
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img
-                src={thumbnailImage}
-                alt="Thumbnail"
-                className="w-full h-32 object-cover rounded-t-lg " 
-
-              />
+                <>
+                <img
+                  src={thumbnailImage}
+                  alt="Thumbnail"
+                  className="w-full h-32 object-cover rounded-t-lg"
+                />
+                <div className="absolute bottom-20 left-2 p-2 rounded-full w-10 flex justify-center items-center bg-black h-10">
+                  <img
+                    src={palyicon}
+                    alt="Small Icon"
+                    className="w-[30px] h-[30px] rounded-full"
+                  />
+                </div>
+              </>
+           
             )}
           </a>
           <div className="p-2">

@@ -23,16 +23,16 @@ function Video() {
           <div className="w-full md:w-[95%] lg:w-[95%] xl:w-[85%] 2xl:w-[80%] h-[313px] bg-[#ebebed] bg-opacity-60  ">
             <div className="flex">
               <div className="w-1/2 bg-[#ebebed] h-10 flex gap-x-3 items-center">
-                <p className='font-bold font-sans'>Trailers</p>
-                <p className='font-bold font-sans text-[#ff9401]'>see more</p>
+                <p className='font-bold font-sans cursor-pointer'>Trailers</p>
+                <p className='font-bold font-sans text-[#ff9401] cursor-pointer'>see more</p>
               </div>
               <div className="w-1/2 bg-[#ebebed] h-10 flex p-2 justify-end gap-x-2">
-                <div className='border border-gray-600 w-7 rounded-lg flex items-center justify-center' onClick={handlePrevClick}>
+                <div className='border border-gray-600 w-7 rounded-lg flex items-center justify-center cursor-pointer' onClick={handlePrevClick}>
                   <p className="text-gray flex items-center justify-center">
                     <span>&lt;</span>
                   </p>
                 </div>
-                <div className='border border-gray-600 w-7 rounded-lg flex items-center justify-center' onClick={handleNextClick}>
+                <div className='border border-gray-600 w-7 rounded-lg flex items-center justify-center cursor-pointer' onClick={handleNextClick}>
                   <p className="text-gray flex items-center justify-center">
                     <span>&gt;</span>
                   </p>
