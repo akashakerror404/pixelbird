@@ -29,9 +29,9 @@ function Hero() {
           </div>
         </div>
         <div className='flex justify-center w-full md:justify-start'>
-        <div className="px-3 md:px-5 py-2 bg-gradient-to-bl from-amber-500 to-amber-700 rounded-xl justify-end items-center gap-3 inline-flex">
-          <div className="w-6 h-6 md:w-8 md:h-8 relative">
-            <img className="w-5 h-5 md:w-6 md:h-6 left-[2px] top-[2px] absolute" src="https://cdn-icons-png.flaticon.com/512/126/126583.png" />
+        <div className="px-3 md:px-5 py-2 bg-gradient-to-bl from-amber-500 to-amber-700 rounded-xl flex justify-end items-center gap-3 inline-flex">
+          <div className="w-6 h-6 md:w-8 md:h-8 relative items-center">
+            <img className="w-5 h-5 md:w-6 md:h-6 left-[2px] top-[2px] absolute" src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_play_circle_filled_white_48px-512.png" />
           </div>
           <div className="text-white  text-base md:text-lg  capitalize leading-normal">
             Watch Trailer
