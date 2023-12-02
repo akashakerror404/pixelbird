@@ -44,7 +44,7 @@ function Headline() {
                 
             </div>
 
-            <hr className="  bg-gradient-to-r from-[#ebebed] via-blue-200 to-[#ebebed] dark:from-[#ebebed] dark:via-blue-700 dark:to-[#ebebed] h-1" />
+            <hr className="  bg-gradient-to-r from-[#ebebed] via-blue-200 to-[#ebebed] dark:from-[#ebebed] dark:via-blue-700 dark:to-[#ebebed] h-px" />
 
 
 
