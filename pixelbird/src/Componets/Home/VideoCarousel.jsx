@@ -59,7 +59,10 @@ function VideoCarousel() {
               <FaStar color="#ffc400" />
               <p className="">8.0 <span className="text-gray-500 text-sm">/10</span></p>
               <p className='text-sm'>176 <span className="text-gray-500 text-sm">min</span></p>
-              <div className="border bg-red-500 h-1"></div>
+              <div className="border border-gray-400 w-7 rounded-md h-4 flex justify-center items-center">
+                <p className='text-gray-500 text-[7px]'>PG13</p>
+
+              </div>
             </div>
           </div>
         </div>
