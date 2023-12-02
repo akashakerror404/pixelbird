@@ -14,8 +14,8 @@ function Navbar() {
 
     return (
         <>
-            <div className='w-full h-[80px] bg-[#ebebed]  '>
-                <div className='w-full md:w-[70%] lg:w-[75%] xl:w-[75%] 2xl:w-[80%]  h-full flex justify-between items-center m-auto bg-[#ebebed]'>
+            <div className='w-full h-[80px] bg-[#ebebed]'>
+            <div className='md:max-w-[1240px]  max-w-[330px]  w-full h-full flex justify-between items-center m-auto bg-[#ebebed]'>
 
                     <div className="flex flex-shrink-0 ">
                         <img
